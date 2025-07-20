@@ -11,7 +11,8 @@ import {FormsModule} from '@angular/forms';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  // title = 'sv7_todo';
+  [x: string]: any;
+  title = 'sv7_todo';
   name = null
   age = null
 }
